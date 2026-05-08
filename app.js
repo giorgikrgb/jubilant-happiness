@@ -1,13 +1,13 @@
 //1 პუნქტი
 let Number = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-for (let i = 0; i <=10; i++) {
+for (let i = 0; i < Number.length; i++) {
     console.log([i]);
 }
 
 //2 პუნქტი
     let Number = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,];
     let i=0;
-    while (i <=15) {
+    while (i < Number.length) {
         console.log([i]);
         i++;
         
