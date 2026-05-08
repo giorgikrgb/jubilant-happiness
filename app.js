@@ -249,12 +249,13 @@ const characters = [
 		alive: true,
 		image: "https://ik.imagekit.io/hpapi/luna.jpg",
 	},
+
 ];
-for (let i = 0; i < characters.length; i++) {   
-    if (characters[i]. yearOfBirth >=1980
-        characters[i].hogwartsStudent=true;)
-    {        console.log(characters[i].name);   
-        
-    }
-    } 
+for (let i = 0; i < characters.length; i++) {
+    if (characters[i].hogwartsStudent === true
+        && characters[i].dateOfBirth >= 1980) {
+        console.log(characters[i].name);
+    }   
+}   
+
         
