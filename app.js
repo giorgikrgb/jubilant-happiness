@@ -6,9 +6,10 @@ for (let i = 0; i < Number.length; i++) {
 
 //2 პუნქტი
    let secondNumber = [0,1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15,];
+   let i = 0;
 
-    while (i < secondNumber.length) {
-        console.log(secondNumber[i]);
+    while (i <=15) {
+        console.log([i]);
         i++;
         
     }
@@ -20,3 +21,6 @@ do {
     console.log(thirdNumber[i]);
     i++;
 }   
+
+//4 პუნქტი
+ const numbers = [45, 56, 78, 89, 101, 234, 333, 457];
