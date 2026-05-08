@@ -253,7 +253,7 @@ const characters = [
 ];
 for (let i = 0; i < characters.length; i++) {
     if (characters[i].hogwartsStudent === true
-        && characters[i].dateOfBirth >= 1980) {
+        && characters[i].yearOfBirth >= 1980) {
         console.log(characters[i].name);
     }   
 }   
