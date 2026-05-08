@@ -251,10 +251,10 @@ const characters = [
 	},
 ];
 for (let i = 0; i < characters.length; i++) {   
-    if (characters[i]. yearOfBirth >=1980)
-        characters[i].hogwartsStudent=true;
-    
+    if (characters[i]. yearOfBirth >=1980
+        characters[i].hogwartsStudent=true;)
+    {        console.log(characters[i].name);   
+        
+    }
     } 
-        console.log(characters[i].name  + " " + characters[i].hogwartsStudent   
-                
-        );
+        
